@@ -1,0 +1,28 @@
+img {
+    width: 100%;
+    height: 500px;
+    border-style: groove;
+}
+h1, h2, h3, h4 {
+    
+    color: #d7fd00;
+}
+h1{
+text-align: center;
+font-family: Helvetica,;
+}
+p {
+    color: rgb(250, 250, 250);
+    font-style: italic;
+}
+body{
+    background-color: rgb(66, 66, 66);
+}
+ul, li, a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    list-style-type: square;
+    font-style: oblique;
+
+}
