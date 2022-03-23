@@ -10,7 +10,7 @@ body
 .header
 {
     height: fit-content;
-    background-color: #1f2937;
+    background-color: #000;
 }
 .line1
 {
@@ -28,6 +28,7 @@ body
  font-weight: bold;
  font-size: 24px;
  color: #f9faf8;
+ display: flex;
  }
  .links
  {
@@ -37,6 +38,8 @@ body
      padding: 10px;
      padding-top: 30px;
      color: #f9faf8;
+     list-style: none;
+     align-items: center;
  }
  .webintro
  {
@@ -83,15 +86,22 @@ body
  .image-place-holder
  {
      width: 430px;
-     height: 228px;
+     height: 208px;
      display: flex;
      justify-content: center;
      align-items: center;
      background-color: #6d747d;
      margin-left: -15px;
      color: #f9faf8;
+    
      
      
+ }
+ .image-place-holder > img
+ {
+    border-radius: 200px;
+    height: 228px;
+    width:500px;
  }
  .button 
  {
@@ -109,6 +119,12 @@ body
      border: 5px solid #3882f6;
      border-radius:10px;
  }
+ .box > img
+ {
+    width:150px;
+     height:150px;
+     border-radius: 5px; 
+ }
  .info
  {
      display: flex;
@@ -120,6 +136,9 @@ body
      display: flex;
      justify-content: center;
      gap: 40px;
+ }
+ .content1{
+     background-color: #ee0f47;
  }
  .subtext
  {
@@ -138,7 +157,7 @@ body
  }
  .content2
  {
-     background-color: #e5e7eb;
+     background-color: #d6cdce;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -149,7 +168,7 @@ body
  {
      font-size: 36px;
      color: #1f2937;
-     width: 700px;
+     width: 1000px;
      font-style: italic;
      font-weight: lighter;
  }
@@ -163,7 +182,7 @@ body
  }
  .signup
  {
-     background-color: #3882f6;
+     background-color: #ee0f47;
      display: flex;
      justify-content: center;
      gap: 78px;
@@ -173,8 +192,8 @@ body
  }
  .button1
  {
-    padding: 10px 30px;
-     background-color: #3882f6;
+    padding: 10px 20px;
+     background-color: #fd0d35;
      color: #f9faf8;
      border-radius: 15px;
      border: 2px solid white;  
@@ -200,10 +219,25 @@ body
  }
  .footer
  {
-    background-color: #1f2937;
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;  
     color: #f9faf8;
     padding: 40px;  
+ }
+ .name
+ {
+   width: 100px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+ }
+ .header-logo > img
+ {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
  }
