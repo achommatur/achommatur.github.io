@@ -1,0 +1,93 @@
+ *
+ {
+     margin: 0;
+     padding: 0;
+ }
+ body
+ {
+     background-image: url(../images/wallpaper\ \(1\).jpg);
+ }
+ #header 
+ {
+     color: #fff;
+     width: 600px;
+     padding: 20px;
+     background-color: rgba(83, 87, 84, 0.452);
+     /* opacity: 0.1; */
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     margin-top: 40px;
+     border-radius: 200px;
+     border: rgb(72, 252, 2) 3px solid;
+ }
+ .header 
+ {
+     display: flex;
+     justify-content: center;
+ }
+ .selection
+ {
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 150px;
+     margin-bottom: 100px;
+     color: #fff;
+ }
+ .box
+ {
+     background-color: rgba(255, 255, 255, 0.397);
+     width: 300px;
+     height: 300px;
+     border: rgba(255, 238, 85, 0.288) 2px solid;
+     border-radius: 10px;
+     margin-bottom: 25px;
+ }
+ .result
+ {
+     background-color: rgba(255, 238, 85, 0.329);
+     width: 100px;
+     height: 100px;
+     border-radius: 100px;
+ }
+ .player
+ {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .computer
+ {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .result1
+ {
+    background-color: #fe5;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+ }
+ .anouncer
+ {
+     width: 800px;
+     height: 100px;
+     background-color: #15f;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 100px;
+ }
+ .footer
+ {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-bottom: 200px;
+    
+ }
