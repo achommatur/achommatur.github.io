@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/style.css">
     <title>rockpaperscissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<script src="/pages/script.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -14,24 +21,31 @@
 </div>
 </div>
 <div class="selection">
+    <div class="counter"></div>
     <div class="player">
         PLAYER
-    <div class="box"></div>
-    <div class="result"></div>
-    <div class="result1"></div>
+    <div class="box"  id="player"></div>
+    <div class="jouse">
+    </div>
 </div>
 <div class="computer">
     COMPUTER
-    <div class="box"></div>
-    <div class="result"></div>
-    <div class="result1"></div>
+    <div class="box" id="computer"></div>
+    <div class="comp">
+    </div>
 </div>
+<div class="counter"></div>
+</div>
+<div id="choices">
+    <div class="choix" class="1"><img src="./images/icons8-paper-50.png" alt="paper"></div>
+    <div class="choix" class="2"> <img src="/images/icons8-rock-60.png" alt="rock"></div>
+    <div class="choix" class="3"><img src="/images/icons8-scissors-64.png" alt="scissors"></div>
 </div>
 <div class="footer">
 <div class="anouncer">
+    <div class="emoji"><img src="./images/disappointed.png" alt="emoji"></div>
     ooh no you lose!
 </div>
 </div>
-    <script src="./pages/script.js"></script>
 </body>
 </html>
