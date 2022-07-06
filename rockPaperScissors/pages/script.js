@@ -1,26 +1,3 @@
-
-
-// 
-
-
-
-// function playRound (element)
-// {
-    
-//     }
-//   leJouer.innerHTML = element.innerHTML;
-//   leJouer.classList.add('iconed');
-//   leJouer.classList.remove('choix');
-//   lOrdinateur.innerHTML = choixDOrdinateur().innerHTML;
-//   lOrdinateur.classList.add('iconed');
-//   lOrdinateur.classList.remove('choix');
-//   const papier = leDeployer[0].innerHTML;
-//   const pierre = leDeployer[1].innerHTML;
-//   const ciseaux = leDeployer[2].innerHTML;
-  
- 
-  
-//   };
 const lesChoix = document.querySelectorAll('.choix');
 const leJouer = document.getElementById('player');
 const comp = document.querySelector('.comp');
